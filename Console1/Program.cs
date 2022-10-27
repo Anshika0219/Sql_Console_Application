@@ -12,14 +12,15 @@ namespace Sql_console_application
     {
         static void Main(string[] args)
         {
-            Create crud = new Create();
-            crud.CreateStudent();
-            //Read crud1 = new Read();
-            //crud1.ReadStudent();
-            //Update crud2 = new Update();
-            //crud2.UpdateStudent();
-            //Delete crud3 = new Delete();
-            //crud3.DeleteStudent();
+            Main crud = new Main();
+            //crud.insertEmploye("Anshika Agrawal",20,1,1);
+            //crud.UpdateEmploye(1, "Anshi Sinha", 23);
+            //crud.DeleteEmploye(1);
+            crud.ReadEmploye();
+            //crud.InsertDepartment("IT");
+            //crud.UpdateDepartmentt(1, "HSR");
+            //crud.InsertSallery(50000);
+            //crud.UpdateSallery(1, 600000);
         }
     }
 }
